@@ -292,11 +292,13 @@ a {
   width: 34px;
   font-size: 14px;
 }
-.social-icons a.envelope:hover {
+.social-icons a.envelope:hover,
+.social0icons-large a.envelope:hover {
   background-color: rgb(151, 136, 151);
 }
-.social-icons a.instagram:hover {
-  background: linear-gradient(
+.social-icons a.instagram:hover,
+.social-icons-large a.instagram:hover {
+  background-color: linear-gradient(
     45deg,
     #405de6,
     #5851db,

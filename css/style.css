@@ -233,11 +233,13 @@ a {
   width: 34px;
   font-size: 14px; }
 
-.social-icons a.envelope:hover {
+.social-icons a.envelope:hover,
+.social0icons-large a.envelope:hover {
   background-color: #978897; }
 
-.social-icons a.instagram:hover {
-  background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d); }
+.social-icons a.instagram:hover,
+.social-icons-large a.instagram:hover {
+  background-color: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d); }
 
 .social-icons a.linkedin:hover {
   background-color: #007bb6; }
