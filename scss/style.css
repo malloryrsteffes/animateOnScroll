@@ -1,0 +1,75 @@
+html {
+  scroll-behavior: smooth; }
+
+body {
+  background-image: linear-gradient(109.6deg, #b1addb 11.2%, #f5e2e2 91.1%);
+  min-height: 800px;
+  font-weight: 300; }
+
+.bg-primary {
+  background: #e2daeb; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  color: #1f1135;
+  padding-top: 2rem;
+  padding-bottom: 2rem; }
+
+section {
+  margin-bottom: 3rem; }
+
+#top {
+  padding-top: 5rem;
+  background-color: #e2daeb;
+  min-height: 800px; }
+  #top .jumbotron-fluid p {
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom: 3rem; }
+  #top .jumbotron-fluid a:hover {
+    color: #1f1135;
+    text-decoration: none; }
+
+#about {
+  min-height: 700px; }
+  #about a:hover {
+    color: #1f1135;
+    text-decoration: none; }
+  #about .img-col {
+    background-image: url("../img/mal2.jpg");
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: initial;
+    -webkit-box-shadow: 10px 10px 26px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 26px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 26px 0px rgba(0, 0, 0, 0.75); }
+
+#portfolio {
+  background-color: #e2daeb;
+  /* Grid Gallery Styling */ }
+  #portfolio .gallery-block.grid-gallery .heading {
+    margin-bottom: 50px;
+    text-align: center; }
+  #portfolio .gallery-block.grid-gallery .heading h3 {
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-transform: uppercase; }
+  #portfolio .gallery-block.grid-gallery a:hover {
+    opacity: 0.8; }
+  #portfolio .gallery-block.grid-gallery .item img {
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+    transition: 0.4s; }
+  #portfolio .gallery-block.grid-gallery .item {
+    margin-bottom: 20px;
+    margin-top: 20px; }
+  @media (min-width: 576px) {
+    #portfolio .gallery-block.grid-gallery .scale-on-hover:hover {
+      transform: scale(1.05);
+      box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important; } }
+
+/*# sourceMappingURL=style.css.map */
