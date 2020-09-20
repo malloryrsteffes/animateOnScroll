@@ -153,7 +153,9 @@ a {
 
 .footer-links {
   padding-left: 0;
-  list-style: none; }
+  list-style: none;
+  display: inline-block;
+  padding-right: 5em; }
   .footer-links li {
     display: block; }
   .footer-links a {
