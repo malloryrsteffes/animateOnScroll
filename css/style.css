@@ -52,6 +52,9 @@ a {
 #portfolio {
   background-image: linear-gradient(109.6deg, #b1addb 11.2%, #f5e2e2 91.1%);
   /* Grid Gallery Styling */ }
+  #portfolio a:hover {
+    color: #1f1135;
+    text-decoration: none; }
   #portfolio .gallery-block.grid-gallery .heading {
     margin-bottom: 50px;
     text-align: center; }
@@ -71,6 +74,10 @@ a {
     #portfolio .gallery-block.grid-gallery .scale-on-hover:hover {
       transform: scale(1.05);
       box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important; } }
+
+#services a:hover {
+  color: #1f1135;
+  text-decoration: none; }
 
 #skills,
 #contact {
@@ -110,7 +117,10 @@ a {
   background: #e2daeb; }
   #services h5,
   #services h6 {
+    margin-top: 1rem;
     font-weight: bold; }
+  #services p {
+    padding-bottom: 2rem; }
   #services .fab:hover,
   #services .fas:hover {
     color: #ff6e6c;

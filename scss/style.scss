@@ -74,7 +74,10 @@ a {
     rgba(245, 226, 226, 1) 91.1%
   );
   /* Grid Gallery Styling */
-
+  a:hover {
+    color: $headings-font-color;
+    text-decoration: none;
+  }
   .gallery-block.grid-gallery .heading {
     margin-bottom: 50px;
     text-align: center;
@@ -103,6 +106,12 @@ a {
       transform: scale(1.05);
       box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important;
     }
+  }
+}
+#services {
+  a:hover {
+    color: $headings-font-color;
+    text-decoration: none;
   }
 }
 #skills,
@@ -144,7 +153,11 @@ a {
 
   h5,
   h6 {
+    margin-top: 1rem;
     font-weight: bold;
+  }
+  p {
+    padding-bottom: 2rem;
   }
   .fab:hover,
   .fas:hover {
