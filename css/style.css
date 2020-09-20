@@ -76,27 +76,7 @@ a {
 #contact {
   padding: 75px 0;
   overflow: hidden;
-  color: white;
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6b4da8+0,4977c2+100 */
-  background: #6b4da8;
-  /* Old browsers */
-  background: -moz-linear-gradient(left, #6b4da8 0%, #4977c2 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, #6b4da8 0%, #4977c2 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right, #6b4da8 0%, #4977c2 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', endColorstr='#4977c2', GradientType=1 );
-  /* IE6-9 */ }
-  #skills h2,
-  #skills h4,
-  #skills h5,
-  #skills h6,
-  #contact h2,
-  #contact h4,
-  #contact h5,
-  #contact h6 {
-    color: #fff; }
+  color: #1f1135; }
   #skills h5,
   #skills h6,
   #contact h5,
@@ -110,26 +90,42 @@ a {
     #skills .skill h4,
     #contact .skill h4 {
       font-weight: 600;
-      color: #fff; }
+      color: #e2daeb; }
     #skills .skill img,
     #contact .skill img {
       max-width: 100px;
       transition: transform 0.3s ease; }
     #skills .skill img:hover,
     #contact .skill img:hover {
-      transform: scale(1.2); }
+      transform: scale(1.2);
+      cursor: pointer; }
+    #skills .skill p.lead,
+    #contact .skill p.lead {
+      color: #1f1135; }
+    #skills .skill a:hover,
+    #contact .skill a:hover {
+      background-color: #ff6e6c !important; }
 
-#resume {
+#services {
   background: #e2daeb; }
-  #resume h5,
-  #resume h6 {
+  #services h5,
+  #services h6 {
     font-weight: bold; }
+  #services .fab:hover,
+  #services .fas:hover {
+    color: #ff6e6c;
+    cursor: pointer; }
 
 .social-icons-large {
   list-style: none; }
   .social-icons-large li {
     display: inline-block;
     padding: 10px; }
+  .social-icons-large .instagram i:hover,
+  .social-icons-large .linkedin i:hover,
+  .social-icons-large .envelope i:hover,
+  .social-icons-large .github i:hover {
+    color: #ff6e6c; }
 
 /* FOOTER */
 .site-footer {
@@ -164,7 +160,7 @@ a {
     padding: 0 !important;
     color: white; }
     .footer-links a:active, .footer-links a:focus, .footer-links a:hover {
-      color: #b4afdc;
+      color: #ff6e6c;
       text-decoration: none; }
   .footer-links .social-icons {
     text-align: right; }
@@ -202,12 +198,10 @@ a {
 .social-icons li.title {
   margin-right: 15px;
   text-transform: uppercase;
-  color: #96a2b2;
   font-weight: 700;
   font-size: 13px; }
 
 .social-icons a {
-  background-color: #625562;
   color: #818a91;
   font-size: 16px;
   display: inline-block;

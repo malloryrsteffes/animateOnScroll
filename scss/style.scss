@@ -1,6 +1,5 @@
 $primary: #e2daeb;
 $headings-font-color: #1f1135;
-$bg-primary: #e2daeb;
 $salmon: #ff6e6c;
 html {
   scroll-behavior: smooth;
@@ -110,31 +109,7 @@ a {
 #contact {
   padding: 75px 0;
   overflow: hidden;
-  color: white;
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6b4da8+0,4977c2+100 */
-  background: rgb(107, 77, 168); /* Old browsers */
-  background: -moz-linear-gradient(
-    left,
-    rgba(107, 77, 168, 1) 0%,
-    rgba(73, 119, 194, 1) 100%
-  ); /* FF3.6-15 */
-  background: -webkit-linear-gradient(
-    left,
-    rgba(107, 77, 168, 1) 0%,
-    rgba(73, 119, 194, 1) 100%
-  ); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(
-    to right,
-    rgba(107, 77, 168, 1) 0%,
-    rgba(73, 119, 194, 1) 100%
-  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', endColorstr='#4977c2', GradientType=1 ); /* IE6-9 */
-  h2,
-  h4,
-  h5,
-  h6 {
-    color: #fff;
-  }
+  color: $headings-font-color;
 
   h5,
   h6 {
@@ -146,7 +121,7 @@ a {
     padding: 0px;
     h4 {
       font-weight: 600;
-      color: #fff;
+      color: $primary;
     }
     img {
       max-width: 100px;
@@ -154,15 +129,27 @@ a {
     }
     img:hover {
       transform: scale(1.2);
+      cursor: pointer;
+    }
+    p.lead {
+      color: $headings-font-color;
+    }
+    a:hover {
+      background-color: $salmon !important;
     }
   }
 }
-#resume {
+#services {
   background: $primary;
 
   h5,
   h6 {
     font-weight: bold;
+  }
+  .fab:hover,
+  .fas:hover {
+    color: $salmon;
+    cursor: pointer;
   }
 }
 
@@ -171,6 +158,14 @@ a {
   li {
     display: inline-block;
     padding: 10px;
+  }
+  .instagram,
+  .linkedin,
+  .envelope,
+  .github {
+    i:hover {
+      color: $salmon;
+    }
   }
 }
 /* FOOTER */
@@ -215,7 +210,7 @@ a {
     &:active,
     &:focus,
     &:hover {
-      color: #b4afdc;
+      color: $salmon;
       text-decoration: none;
     }
   }
@@ -261,12 +256,12 @@ a {
 .social-icons li.title {
   margin-right: 15px;
   text-transform: uppercase;
-  color: #96a2b2;
+  // color: #96a2b2;
   font-weight: 700;
   font-size: 13px;
 }
 .social-icons a {
-  background-color: rgb(98, 85, 98);
+  // background-color: rgb(98, 85, 98);
   color: #818a91;
   font-size: 16px;
   display: inline-block;
