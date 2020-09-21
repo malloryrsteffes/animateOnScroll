@@ -143,9 +143,6 @@ a {
     p.lead {
       color: $headings-font-color;
     }
-    a:hover {
-      background-color: $salmon !important;
-    }
   }
 }
 #services {
@@ -179,6 +176,12 @@ a {
     i:hover {
       color: $salmon;
     }
+  }
+}
+
+#contact {
+  a:hover {
+    color: $salmon !important;
   }
 }
 /* FOOTER */

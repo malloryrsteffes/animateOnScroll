@@ -109,9 +109,6 @@ a {
     #skills .skill p.lead,
     #contact .skill p.lead {
       color: #1f1135; }
-    #skills .skill a:hover,
-    #contact .skill a:hover {
-      background-color: #ff6e6c !important; }
 
 #services {
   background: #e2daeb; }
@@ -136,6 +133,9 @@ a {
   .social-icons-large .envelope i:hover,
   .social-icons-large .github i:hover {
     color: #ff6e6c; }
+
+#contact a:hover {
+  color: #ff6e6c !important; }
 
 /* FOOTER */
 .site-footer {
