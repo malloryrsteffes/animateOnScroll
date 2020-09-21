@@ -1,0 +1,20 @@
+{
+  "name": "msteffes-portfolio",
+  "version": "1.0.0",
+  "description": "new portfolio to replace the crappy old one",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malloryrsteffes/animateOnScroll.git"
+  },
+  "author": "Mallory Steffes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/malloryrsteffes/animateOnScroll/issues"
+  },
+  "homepage": "https://github.com/malloryrsteffes/animateOnScroll#readme"
+}
